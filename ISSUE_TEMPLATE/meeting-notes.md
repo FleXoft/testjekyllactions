@@ -10,4 +10,4 @@ labels:
 body1
 body2
 
-title: "It's done at: {{ date | date('MMMM Do') }} X {{ date | date('%FT%T%:z') }}"
+title: date | date('%FT%T%:z')
