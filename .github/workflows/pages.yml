@@ -4,10 +4,11 @@ on:
    branches: ["main"]
 #  schedule:
 #    - cron: '0 0 5 * *'
-#permissions:
-#  contents: read
-#  pages: write
-#  id-token: write
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  issues: write
 jobs:
   build:
     runs-on: ubuntu-latest
